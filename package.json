@@ -6,9 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohaghamjah/tailwind-css.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohaghamjah/tailwind-css/issues"
+  },
+  "homepage": "https://github.com/sohaghamjah/tailwind-css#readme",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
   }
