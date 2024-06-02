@@ -74,9 +74,37 @@
    <!-- End Navbar -->
    <!-- Header Start -->
    <header class="bg-[#DEF6FD] mt-2 rounded-md">
-    <div class="container mx-auto bg-hero">
-        <h2>Find a perfect</h2>
-        <h2>Online Course</h2>
+    <div class="container mx-auto bg-hero py-40 bg-contain bg-no-repeat bg-[right_0px_top_10px]">
+        <h2 class="text-4xl font-light">Find a perfect</h2>
+        <h2 class="text-4xl font-medium">Online Course</h2>
+        <p class="text-gray-500 my-3">
+            Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <form action="">
+            <div class="flex bg-white items-center p-4">
+                <div class="basis-3/6 relative">
+                    <span class="absolute top-0.5 left-4">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <input type="search" class="ml-16 outline-none focus:outline-none font-light" placeholder="Search Online Course">
+                </div>
+                <div class="basis-2/6 flex">
+                    <div>
+                        <i class="fa-solid fa-cube text-gray-400 mr-2"></i>
+                    </div>
+                    <div class="flex-1">
+                        <select name="category" id="category_id" class="bg-white text-gray-400 font-light w-full">
+                            <option value="">Select Technology</option>
+                            <option value="">Tailwind CSS</option>
+                            <option value="">Bootstrap Css</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="basis-1/6">
+                    <button class="transition bg-red-500 text-white px-8 hover:opacity-75 p-3 rounded-full ml-3">Search</button>
+                </div>
+            </div>
+        </form>
     </div>
    </header>
    <!-- Header End -->
